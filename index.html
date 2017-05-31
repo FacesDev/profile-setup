@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <form>
+      <h3>Sign Up</h3>
+      <div class="top">
+        <div>
+          <input type="radio" name="chooseone" value="admin">
+          <label for="admin">Admin</label>
+        </div>
+        <div>
+          <input type="radio" name="chooseone" value="personal">
+          <label for="personal">Personal</label>
+        </div>
+        <div>
+          <input type="radio" name="chooseone" value="guest">
+          <label for="guest">Guest</label>
+        </div>
+      </div>
+      <div class="textform">
+
+        <div class="line">
+          <label for="name">Name</label><br />
+          <input type="text" id="name">
+        </div>
+        <div class="line">
+          <label for="email">Email Address</label><br />
+          <input type="email" id="email">
+        </div>
+
+        <div class="line">
+          <label for="pass">Password</label><br />
+          <input type="password" id="pass">
+        </div>
+        <div class="line">
+          <label for="confpass">Confirm Password</label><br />
+          <input type="password" id="confpass">
+        </div>
+      </div>
+      <div class="pic">
+          <label for="fileToUpload">Profile Picture</label><br />
+
+          <div class="file-btn upload-pic">
+            <span>Upload a Picture</span>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+          </div>
+          
+          <input type="submit" value="Sign Up" name="submit">
+      </div>
+      </div>
+
+    </section>
+  </div>
+</body>
+</html>
